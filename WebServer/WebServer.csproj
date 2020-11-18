@@ -1,0 +1,235 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="StaticFiles\" />
+    <Folder Include="StaticFiles\webapp\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="StaticFiles\webapp\slots2020\android\base" />
+    <None Remove="StaticFiles\webapp\slots2020\android\bigwin" />
+    <None Remove="StaticFiles\webapp\slots2020\android\entry\entry_aztecadventure" />
+    <None Remove="StaticFiles\webapp\slots2020\android\entry\entry_biermania" />
+    <None Remove="StaticFiles\webapp\slots2020\android\entry\entry_charmwitch" />
+    <None Remove="StaticFiles\webapp\slots2020\android\entry\entry_cleopatra" />
+    <None Remove="StaticFiles\webapp\slots2020\android\entry\entry_colossaldog" />
+    <None Remove="StaticFiles\webapp\slots2020\android\entry\entry_crazydollar" />
+    <None Remove="StaticFiles\webapp\slots2020\android\entry\entry_diadeamor" />
+    <None Remove="StaticFiles\webapp\slots2020\android\entry\entry_direwolf" />
+    <None Remove="StaticFiles\webapp\slots2020\android\entry\entry_doggyanddiamond" />
+    <None Remove="StaticFiles\webapp\slots2020\android\entry\entry_firedragon" />
+    <None Remove="StaticFiles\webapp\slots2020\android\entry\entry_fortunefish" />
+    <None Remove="StaticFiles\webapp\slots2020\android\entry\entry_goldenrush" />
+    <None Remove="StaticFiles\webapp\slots2020\android\entry\entry_goldenvegas" />
+    <None Remove="StaticFiles\webapp\slots2020\android\entry\entry_goldmine" />
+    <None Remove="StaticFiles\webapp\slots2020\android\entry\entry_grannywolf" />
+    <None Remove="StaticFiles\webapp\slots2020\android\entry\entry_happychristmas" />
+    <None Remove="StaticFiles\webapp\slots2020\android\entry\entry_hotpot" />
+    <None Remove="StaticFiles\webapp\slots2020\android\entry\entry_kangaroorich" />
+    <None Remove="StaticFiles\webapp\slots2020\android\entry\entry_kingofocean" />
+    <None Remove="StaticFiles\webapp\slots2020\android\entry\entry_legendofcleopatra" />
+    <None Remove="StaticFiles\webapp\slots2020\android\entry\entry_luckyclover" />
+    <None Remove="StaticFiles\webapp\slots2020\android\entry\entry_magiclink" />
+    <None Remove="StaticFiles\webapp\slots2020\android\entry\entry_maya" />
+    <None Remove="StaticFiles\webapp\slots2020\android\entry\entry_mermaidmischief" />
+    <None Remove="StaticFiles\webapp\slots2020\android\entry\entry_oceanromance" />
+    <None Remove="StaticFiles\webapp\slots2020\android\entry\entry_phoenixoffire" />
+    <None Remove="StaticFiles\webapp\slots2020\android\entry\entry_reelfortunes" />
+    <None Remove="StaticFiles\webapp\slots2020\android\entry\entry_reelofdragon" />
+    <None Remove="StaticFiles\webapp\slots2020\android\entry\entry_rhinomania" />
+    <None Remove="StaticFiles\webapp\slots2020\android\entry\entry_safariking" />
+    <None Remove="StaticFiles\webapp\slots2020\android\entry\entry_snowwhitetwo" />
+    <None Remove="StaticFiles\webapp\slots2020\android\entry\entry_sweetblast" />
+    <None Remove="StaticFiles\webapp\slots2020\android\entry\entry_vegaslink" />
+    <None Remove="StaticFiles\webapp\slots2020\android\entry\entry_vesuvianforture" />
+    <None Remove="StaticFiles\webapp\slots2020\android\entry\entry_wildtoro" />
+    <None Remove="StaticFiles\webapp\slots2020\android\entry\entry_witch" />
+    <None Remove="StaticFiles\webapp\slots2020\android\entry\entry_wolf" />
+    <None Remove="StaticFiles\webapp\slots2020\android\entry\entry_zues" />
+    <None Remove="StaticFiles\webapp\slots2020\android\hot" />
+    <None Remove="StaticFiles\webapp\slots2020\android\luacode20201118" />
+    <None Remove="StaticFiles\webapp\slots2020\android\themes\direwolf" />
+    <None Remove="StaticFiles\webapp\slots2020\android\themes\kangaroorich" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="StaticFiles\webapp\slots2020\android\base">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\webapp\slots2020\android\bigwin">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\webapp\slots2020\android\entry\entry_aztecadventure">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\webapp\slots2020\android\entry\entry_biermania">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\webapp\slots2020\android\entry\entry_charmwitch">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\webapp\slots2020\android\entry\entry_cleopatra">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\webapp\slots2020\android\entry\entry_colossaldog">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\webapp\slots2020\android\entry\entry_crazydollar">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\webapp\slots2020\android\entry\entry_diadeamor">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\webapp\slots2020\android\entry\entry_direwolf">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\webapp\slots2020\android\entry\entry_doggyanddiamond">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\webapp\slots2020\android\entry\entry_firedragon">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\webapp\slots2020\android\entry\entry_fortunefish">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\webapp\slots2020\android\entry\entry_goldenrush">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\webapp\slots2020\android\entry\entry_goldenvegas">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\webapp\slots2020\android\entry\entry_goldmine">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\webapp\slots2020\android\entry\entry_grannywolf">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\webapp\slots2020\android\entry\entry_happychristmas">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\webapp\slots2020\android\entry\entry_hotpot">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\webapp\slots2020\android\entry\entry_kangaroorich">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\webapp\slots2020\android\entry\entry_kingofocean">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\webapp\slots2020\android\entry\entry_legendofcleopatra">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\webapp\slots2020\android\entry\entry_luckyclover">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\webapp\slots2020\android\entry\entry_magiclink">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\webapp\slots2020\android\entry\entry_maya">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\webapp\slots2020\android\entry\entry_mermaidmischief">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\webapp\slots2020\android\entry\entry_oceanromance">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\webapp\slots2020\android\entry\entry_phoenixoffire">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\webapp\slots2020\android\entry\entry_reelfortunes">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\webapp\slots2020\android\entry\entry_reelofdragon">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\webapp\slots2020\android\entry\entry_rhinomania">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\webapp\slots2020\android\entry\entry_safariking">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\webapp\slots2020\android\entry\entry_snowwhitetwo">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\webapp\slots2020\android\entry\entry_sweetblast">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\webapp\slots2020\android\entry\entry_vegaslink">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\webapp\slots2020\android\entry\entry_vesuvianforture">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\webapp\slots2020\android\entry\entry_wildtoro">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\webapp\slots2020\android\entry\entry_witch">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\webapp\slots2020\android\entry\entry_wolf">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\webapp\slots2020\android\entry\entry_zues">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\webapp\slots2020\android\hot">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\webapp\slots2020\android\luacode20201118">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\webapp\slots2020\android\themes\direwolf">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="StaticFiles\webapp\slots2020\android\themes\kangaroorich">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+  </ItemGroup>
+</Project>
