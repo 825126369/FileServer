@@ -4,9 +4,13 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
   <ItemGroup>
     <Folder Include="StaticFiles\" />
     <Folder Include="StaticFiles\webapp\" />
+    <Folder Include="GameLogic\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="StaticFiles\webapp\slots2020\android\base" />
@@ -231,5 +235,8 @@
       <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Certificate" Version="5.0.0" />
   </ItemGroup>
 </Project>

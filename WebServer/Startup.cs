@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authentication.Certificate;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -28,6 +29,9 @@ namespace WebServer
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+            //services.AddAuthentication(
+            //CertificateAuthenticationDefaults.AuthenticationScheme)
+            //.AddCertificate().AddCertificateCache();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -64,7 +68,7 @@ namespace WebServer
             staticfile.FileProvider = new PhysicalFileProvider(@"/Users/xuke2020/Documents/Project/FileServer/WebServer/StaticFiles/");//指定目录，这里指C盘，也可以是其他目录
             app.UseStaticFiles(staticfile);//使用默认文件夹wwwroot //手动设置MIME Type,或者设置一个默认值， 以解决某些文件MIME Type文件识别不到，出现404错误
             staticfile.ServeUnknownFileTypes = true;
-
+            
             //staticfile.DefaultContentType = "application/octet-stream";
             //var provider = new FileExtensionContentTypeProvider();//使用一组默认映射创建新的提供程序
             //provider.Mappings.Add(".log", "text/plain");//手动设置对应MIME Type
@@ -72,7 +76,7 @@ namespace WebServer
 
             app.UseRouting();
 
-            app.UseAuthorization();
+            //app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
